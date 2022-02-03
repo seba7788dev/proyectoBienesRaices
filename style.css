@@ -354,3 +354,9 @@ background-color: #71b100;
     justify-content: space-between;
     align-items: center;
 }
+
+/* Contacto */
+
+label{
+    display: block;
+}
