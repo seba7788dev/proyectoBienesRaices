@@ -157,6 +157,32 @@ background-color: #71b100;
     color: #71b100;
 }
 
+/* Mobile menu */
+.mobile-menu img{
+    width: 5rem;
+}
+
+@media (min-width: 768px)
+{
+
+    .mobile-menu{
+        display: none;
+    }
+}
+
+.navegacion:target{
+    display: block;
+}
+
+
+.navegacion{
+    display: none;
+}
+@media (min-width: 768px){
+    .navegacion{
+        display: block;
+    }
+}
 
 
 .contenido-header{
@@ -427,12 +453,18 @@ background-color: #71b100;
 
 /* Pagina Nosotros */
 
-.contenido-nosotros{
-    /* CSS Grid */
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap:2rem ;
+@media (min-width: 768px){
+    .contenido-nosotros{
+        /* CSS Grid */
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap:2rem ;
+    }
+    
 }
+
+
+
 
 .texto-nosotros blockquote{
     font-weight: 900;
